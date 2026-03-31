@@ -48,6 +48,10 @@ inventory-system/
    git clone https://github.com/imma1114/inventory-management-system.git
 
 
+## Live Demo
+
+[View Live →](https://imma1114.github.io/inventory-management-system/)
+
 ## 📸 Screenshots
 
 ### Dashboard
