@@ -80,7 +80,7 @@ Advanced analytics
 
 ### Immaculate Nhlanhla Modise
 
-Diploma in IT: Software Development
+Diploma in IT: Software Development |
 Advanced Diploma in Information Resource Management
 🔗 LinkedIn: https://www.linkedin.com/in/immaculatemodise
 
