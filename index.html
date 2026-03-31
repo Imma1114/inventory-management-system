@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="logout()">Logout</button>
+
+    <h1>Inventory Management System</h1>
+
+    <!-- Dashboard -->
+    <div id="dashboard">
+        <p>Total Products: <span id="totalProducts">0</span></p>
+        <p>Low Stock Items: <span id="lowStock">0</span></p>
+    </div>
+
+    <!-- Form -->
+    <form id="productForm">
+        <input type="text" id="name" placeholder="Product Name" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="number" id="quantity" placeholder="Quantity" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <!-- Search -->
+    <input type="text" id="search" placeholder="Search product..." onkeyup="searchProduct()">
+
+    <!-- Table -->
+    <h2>Products</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="productList"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
